@@ -28,7 +28,7 @@ const Projects = () => (
         sourceURL={"https://github.com/"}
         hostedURL={"http://www.google.com"}
       />
-      <Link to="/projects" className="blueViolet">
+      <Link to="/projects" className="project-link">
         Go to Projects page ---->
       </Link>
     </Container>

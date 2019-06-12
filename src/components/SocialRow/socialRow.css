@@ -4,7 +4,7 @@
 }
 
 .jumbo_social i {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 a:link {
@@ -12,7 +12,7 @@ a:link {
 }
 
 .hover_effect:hover {
-  color: blueviolet;
+  color: #129490;
 }
 
 @media (max-width: 550px) {

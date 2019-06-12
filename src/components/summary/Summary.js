@@ -12,25 +12,25 @@ const Summary = () => (
     <br />
     <Row className="text-center tech_icons">
       <Col>
-        <i className="fab fa-js hover_effect" />
-        <br />
-        <span>JavaScript</span>
-      </Col>
-      <Col>
         <i className="fab fa-react hover_effect" />
         <br />
-        <span>React.js</span>
+        <span>React</span>
       </Col>
       <Col>
-        <i className="fab fa-html5 hover_effect" />
+        <i className="fab fa-python hover_effect" />
         <br />
-        <span>HTML5</span>
+        <span>Python</span>
       </Col>
       <Col>
-        <i className="fab fa-css3 hover_effect" />
+        <i className="fab fa-java hover_effect" />
         <br />
-        <span>CSS3</span>
+        <span>Java</span>
       </Col>
+      <Col>
+        <i className="fab fa-node-js hover_effect" />
+        <br />
+        <span>Node</span>
+    </Col>
     </Row>
     <br />
 
@@ -40,7 +40,7 @@ const Summary = () => (
     </h4>
     <Row style={{ marginTop: "1.8rem" }}>
       <Col>
-        <h4 className="hover_effect">Tagline1</h4>
+        <h4 className="hover_effect">JavaScript</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Exercitationem quod maiores maxime suscipit assumenda vitae, incidunt
@@ -49,7 +49,7 @@ const Summary = () => (
         </p>
       </Col>
       <Col>
-        <h4 className="hover_effect">Tagline2</h4>
+        <h4 className="hover_effect">Python</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, modi
           reiciendis. Placeat quia facilis neque, corporis ullam maiores eaque
@@ -60,7 +60,7 @@ const Summary = () => (
     <br />
     <Row>
       <Col>
-        <h4 className="hover_effect">Tagline3</h4>
+        <h4 className="hover_effect">Java</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
           consequuntur. Ipsum deserunt veniam molestias odio rerum repudiandae
@@ -69,7 +69,7 @@ const Summary = () => (
         </p>
       </Col>
       <Col>
-        <h4 className="hover_effect">Tagline4</h4>
+        <h4 className="hover_effect">Other Things</h4>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis
           excepturi odio illum accusamus eum optio voluptatum corporis beatae

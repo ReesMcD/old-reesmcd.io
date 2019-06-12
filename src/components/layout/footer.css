@@ -22,7 +22,7 @@ a:link {
 }
 
 .hover_effect:hover {
-  color: blueviolet;
+  color: #129490;
 }
 
 .link_styles {
@@ -30,15 +30,15 @@ a:link {
 }
 
 .link_styles:hover {
-  color: blueviolet;
+  color: #129490;
 }
 
-.blueViolet {
-  color: blueviolet;
-}
-
-.blueViolet:hover {
+.gatspy-link {
   color: white;
+}
+
+.gatspy-link:hover {
+  color: #129490;
 }
 
 @media (max-width: 550px) {

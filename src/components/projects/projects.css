@@ -1,3 +1,6 @@
-.blueViolet:hover {
+.project-link {
+  color: #129490;
+}
+.project-link:hover {
   color: black;
 }

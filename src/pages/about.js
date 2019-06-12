@@ -57,7 +57,7 @@ export default () => (
         {/* This is the beginning of the career section*/}
         <Row>
           <Col>
-            <h3>Past work experience</h3>
+            <h3>Work experience</h3>
           </Col>
         </Row>
         {/* Position number 1*/}
@@ -111,21 +111,20 @@ export default () => (
         {/* Masters Degreee*/}
         <Row>
           <Col>
-            <h5>MSc. ACME studies</h5>
+            <h5>B.S. Information Sciences and Technology</h5>
           </Col>
         </Row>
         <Row>
-          <Col>ACME University, ACME City, US</Col>
-          <Col>2009.08 - 2015.08</Col>
+          <Col>Pennsylvania State University, University Park, PA</Col>
+          <Col>2014 - 2018</Col>
         </Row>
         <Row>
           <Col>
             <p style={{ marginTop: "1rem" }}>
               <strong>Specialization:</strong>
-              <br /> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Tenetur quasi fugit accusamus officia sequi optio nulla,
-              cupiditate in vitae natus odit nihil commodi corrupti mollitia
-              necessitatibus iure eius praesentium? Fugit!
+              <br /> Focused in Design and Development. Curriculum stressed 
+              user interaction and experience as well as logical and complex software development. 
+              This focus is to teach the full development life-cycle and to create adaptable full stack engineers. 
             </p>
           </Col>
         </Row>
