@@ -17,9 +17,12 @@ export default () => (
       <Hero />
       <hr />
       <Summary />
-      <hr />
-      <Projects />
-      <hr />
+      {
+        //<hr />
+        //<Projects />
+        //<hr />
+      }
+      
     </Layout>
   </div>
 )

@@ -16,17 +16,18 @@ export default () => (
     <Layout>
       <MyJumbo
         body={
-          "So you are looking for a professional, communicative & punctual software engineer who likes to keep productive."
+          "So you are looking for a proactive and outgoing software engineer who loves to keep learning?"
         }
-        body2={"I can also do this cool thing if that's... needed."}
+        body2={"Well look no further."}
         title={"tldr; About me."}
       />
       <hr />
       <Container fluid>
-        <Row style={{ marginTop: "2rem", marginBottom: "1.5rem" }}>
-          <MyButton text={"CV download"} URL={CV} />
-          <MyButton text={"Other Downloadable"} URL={other} />
-        </Row>
+{        // <Row style={{ marginTop: "2rem", marginBottom: "1.5rem" }}>
+        //   <MyButton text={"CV download"} URL={CV} />
+        //   <MyButton text={"Other Downloadable"} URL={other} />
+        // </Row>
+}
         <Row>
           <Col>
             <h3>Summary</h3>
@@ -34,22 +35,17 @@ export default () => (
         </Row>
         <Row>
           <Col>
-            <h5>I love Coffee. I mean, more than people normaly like coffee</h5>
+            <h5>I love learning, challenges, and building new things.</h5>
             <br />
             <p>
-              I'm a Software Engineer building noice Websites on the internet.
+              I'm a Software Engineer that loves to build cool and new web applications.
               <br />
               <br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
-              pariatur nobis ipsa laborum quae, fuga vel a, dolor consectetur
-              blanditiis explicabo dolorem quos sunt voluptatibus dicta commodi
-              temporibus magnam placeat.
+              I grew up in the Philadelphia area in Pennsylvania and attended college at Penn State University and earned a B.S. in Information Sciences and Technology. At my time at Penn State, I learned tons of things relating to software development and unrelated to it. These skills have shaped me into the engineer I am today.
               <br />
               <br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
-              consequuntur. Numquam quaerat hic eum, earum perferendis totam!
-              Fugiat, explicabo placeat labore voluptatum voluptas numquam
-              repudiandae delectus animi dolorem consequatur. Reiciendis?
+                
+              I currently work at Ford Motor Company in Detroit as a Software Engineer. There I work full stack on web application dealing with Ford Owners. Here we are using modern solutions to solve complex and challenging problems. Often dealing with security, architecture, and performance in terms of our web applications.
             </p>
           </Col>
         </Row>
@@ -60,55 +56,137 @@ export default () => (
             <h3>Work experience</h3>
           </Col>
         </Row>
-        {/* Position number 1*/}
+        {/* Ford */}
         <Row>
           <Col>
             <h5>Software Engineer</h5>
           </Col>
         </Row>
         <Row>
-          <Col>ACME Studios, Roadrunner City, US</Col>
-          <Col>2015.09 - 2019.01</Col>
+          <Col>Ford Motor Company, Dearborn, MI</Col>
+          <Col>2019.01 - present</Col>
         </Row>
         <Row>
           <Col>
             <p style={{ marginTop: "1rem" }}>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et iure
-              nisi consequuntur provident officia odio vitae, nam neque natus
-              debitis earum facere, quibusdam similique itaque sed, cumque
-              aliquam voluptas quos.
+            Developed full stack on Ford's Owner Expedition team
+            creating scalable applications for Ford customers, from
+            starting your car to scheduling maintenance
+            appointments. For our applications, we used a microservice
+            architecture built on Spring Boot for the backend and used
+            Angular and React web applications for the frontend.
             </p>
           </Col>
         </Row>
         <hr />
-        {/* SW intern Position*/}
+        {/* Haynes Lab */}
         <Row>
           <Col>
-            <h5>Software Engineer Intern</h5>
+            <h5>Mobile Application Developer</h5>
           </Col>
         </Row>
         <Row>
-          <Col>Mip Mip Co LTD, Roadrunner City, US&A</Col>
-          <Col>2014.06 - 2014.09</Col>
+          <Col>Penn State University, University Park, PA</Col>
+          <Col>2018.03 - 2018.12</Col>
         </Row>
         <Row>
           <Col>
             <p style={{ marginTop: "1rem" }}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-              ullam eius nihil porro itaque nobis facere. Impedit eos minima
-              porro. Culpa, laboriosam! Qui quo provident aperiam et ullam odio
-              ex.
+            Mobile Application Developer for Dr. Steven Haynes’
+            Research Lab. Dr. Steven Haynes is a Professor of
+            Information Sciences and Technology at Penn State
+            University. In his lab, I focused on creating, designing, and
+            developing mobile and web applications using various
+            JavaScript frameworks, such as Node and React Native.
             </p>
           </Col>
         </Row>
         <hr />
+          {/* TSV */}
+          <Row>
+          <Col>
+            <h5>Technology Analyst Intern </h5>
+          </Col>
+        </Row>
+        <Row>
+          <Col>Textron Specialized Vehicles, Augusta, GA</Col>
+          <Col>2018.05 - 2018.08</Col>
+        </Row>
+        <Row>
+          <Col>
+            <p style={{ marginTop: "1rem" }}>
+            Textron Specialized Vehicles is a forerunner in the
+            automotive industry providing a large line of utility,
+            support, and off-road vehicles. I was partnered with the
+            Integrated Supply Chain team to optimize workflow
+            throughout the company’s manufacturing process from the
+            technical end. Focusing on warehouse management and
+            eliminating inefficiencies in production.
+            </p>
+          </Col>
+        </Row>
+        <hr />
+
+          {/* THON */}
+            <Row>
+            <Col>
+              <h5>Software Developer</h5>
+            </Col>
+          </Row>
+          <Row>
+            <Col>THON, University Park, PA</Col>
+            <Col>2017.09 - 2018.07</Col>
+          </Row>
+          <Row>
+            <Col>
+              <p style={{ marginTop: "1rem" }}>
+              One of twenty-one software developers that provided
+              technical services for Penn State’s THON, the largest
+              student-run philanthropy in the world. A 46 hour no
+              sleeping or sitting dance marathon raising money for
+              childhood cancer. As a developer, I created various software
+              essential for the organization utilizing frameworks like
+              Django and Wordpress. Also having to regularly
+              communicate with other teams to fulfill the needs and
+              wants of the organization.
+              </p>
+            </Col>
+          </Row>
+          <hr />
+
+          {/* Textron */}
+          <Row>
+          <Col>
+            <h5>Network Engineering Intern</h5>
+          </Col>
+        </Row>
+        <Row>
+          <Col>Textron, Fort Worth, TX</Col>
+          <Col>2017.06 - 2017.08</Col>
+        </Row>
+        <Row>
+          <Col>
+            <p style={{ marginTop: "1rem" }}>
+            Textron is an American global aerospace, defense, security
+            and advanced technologies industrial conglomerate.
+            Partnered with the Network Infrastructure team developing
+            and maintaining SQL Server databases for the team to have
+            more optimized access and management of data;
+            developed web dashboards created with PowerBI with SQL
+            Server and various Python scripts to streamline important
+            information for the department.
+            </p>
+          </Col>
+        </Row>
+        <hr />
+
         {/* This is the beginning of the education section*/}
         <Row>
           <Col>
             <h3>Education</h3>
           </Col>
         </Row>
-        {/* Masters Degreee*/}
+        {/* BS Degreee*/}
         <Row>
           <Col>
             <h5>B.S. Information Sciences and Technology</h5>

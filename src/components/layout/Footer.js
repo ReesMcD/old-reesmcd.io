@@ -47,11 +47,13 @@ const Footer = () => (
             <span className="link_styles">About</span>
           </Link>
         </Col>
-        <Col xs={2} style={{ fontSize: "1.3rem" }}>
-          <Link to="/projects">
-            <span className="link_styles">Projects</span>
-          </Link>
-        </Col>
+{        
+  // <Col xs={2} style={{ fontSize: "1.3rem" }}>
+  //         <Link to="/projects">
+  //           <span className="link_styles">Projects</span>
+  //         </Link>
+  //       </Col>
+      }
       </Row>
 
       {/* TODO: Make use of the SocialRow component to make the below icons obsolete */}
@@ -60,7 +62,7 @@ const Footer = () => (
       <Col>
       <a
         style={{ color: "#000" }}
-        href="https://www.github.com/"
+        href="https://github.com/ReesMcD"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -70,7 +72,7 @@ const Footer = () => (
     <Col>
       <a
         style={{ color: "#000" }}
-        href="https://www.linkedin.com/"
+        href="https://www.linkedin.com/in/rees-mcdevitt-81a155127/"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -80,7 +82,7 @@ const Footer = () => (
     <Col>
       <a
         style={{ color: "#000" }}
-        href="#"
+        href="https://medium.com/@mcdevittrees"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -90,11 +92,11 @@ const Footer = () => (
     <Col>
     <a
       style={{ color: "#000" }}
-      href="#"
+      href="https://res.cloudinary.com/dlz4rglw0/image/upload/v1560903443/Rees%20McDevitt%20Resume.pdf"
       target="_blank"
       rel="noopener noreferrer"
     >
-      <i className="fab fa-pied-piper-hat hover_effect" />
+      <i className="fab fa-telegram hover_effect" />
     </a>
   </Col>
       </Row>
