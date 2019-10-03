@@ -36,14 +36,14 @@ export default () => (
       </a>
     </Col>
     <Col>
-    <a
-      style={{ color: "#000" }}
-      href="https://res.cloudinary.com/dlz4rglw0/image/upload/v1560906319/Rees%20McDevitt%20Resume.pdf"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <i className="fab fa-telegram hover_effect" />
-    </a>
-  </Col>
+      <a
+        style={{ color: "#000" }}
+        href="https://res.cloudinary.com/dlz4rglw0/image/upload/v1570145017/Resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fab fa-telegram hover_effect" />
+      </a>
+    </Col>
   </Row>
 )
