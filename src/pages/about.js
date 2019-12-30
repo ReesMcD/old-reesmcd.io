@@ -78,10 +78,12 @@ export default () => (
         <Row>
           <Col>
             <p style={{ marginTop: "1rem" }}>
-              Developed full stack on Ford's Owner Expedition team creating
-              scalable applications for Ford customers. Designing and developed
-              single-page applications with Angular and microservices with
-              Spring Boot for related business needs.
+              Full stack developer at Ford Motor Company contributing to various
+              products throughout the organization, delivering high-quality code
+              from the frontend and backend. Utilizing skills such as Angular,
+              Java Spring Boot, CI/CD, and much more. Implementing agile
+              methodologies to help teams ship products and features efficiently
+              as possible.
             </p>
           </Col>
         </Row>

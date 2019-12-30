@@ -38,7 +38,7 @@ export default () => (
     <Col>
       <a
         style={{ color: "#000" }}
-        href="https://res.cloudinary.com/dlz4rglw0/image/upload/v1570145017/Resume.pdf"
+        href="https://res.cloudinary.com/dlz4rglw0/image/upload/v1577682375/resume.pdf"
         target="_blank"
         rel="noopener noreferrer"
       >
